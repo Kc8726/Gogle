@@ -12,13 +12,16 @@ class SearchEngine:
                 results.append(doc_id)
         return results
 
+
+
 if __name__ == "__main__":
     search_engine = SearchEngine()
 
     # Добавление документов
     search_engine.add_document(1, "Это пример текста для поисковой системы.")
-    search_engine.add_document(2, "Поиск позволяет находить информацию в тексте.")
-    search_engine.add_document(3, "Простая поисковая система на Python.")
+    search_engine.    
+
+            )
 
     # Выполнение поиска
     query = "поиск Python"
