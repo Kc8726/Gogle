@@ -198,23 +198,3 @@ if __name__ == "__main__":
     search_engine.    
 
             )
-
-    # Выполнение поиска
-    query = "поиск Python"
-    search_results = search_engine.search(query)
-
-    if search_results:
-        print(f"Результаты по запросу '{query}':")
-        for doc_id in search_results:
-            print(f"Документ {doc_id}: {search_engine.documents[doc_id]}")
-    else:
-        print("Ничего не найдено.")
-  # Выполнение поиска
-    query = "поиск Python"
-    search_results = search_engine.search(query)
-rint(f"Результаты по запросу '{query}':")
-        for doc_id in search_results:
-            print(f"Документ {doc_id}: {search_engine.documents[doc_id]}")
-    else:
-        print("Ничего не найдено.")
-)
