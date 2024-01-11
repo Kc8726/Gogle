@@ -178,23 +178,3 @@ class SearchEngine:
     def __init__(self):
         self.documents = {}
 
-    def add_document(self, doc_id, content):
-        self.documents[doc_id] = content
-
-    def search(self, query):
-        results = []
-        for doc_id, content in self.documents.items():
-            if query in content:
-                results.append(doc_id)
-        return results
-
-
-
-if __name__ == "__main__":
-    search_engine = SearchEngine()
-
-    # Добавление документов
-    search_engine.add_document(1, "Это пример текста для поисковой системы.")
-    search_engine.    
-
-            )
