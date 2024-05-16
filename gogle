@@ -7,11 +7,7 @@ class SearchEngine:
 
     def search(self, query):
         results = []
-        for doc_id, content in self.documents.items():
-            if query in content:
-                results.append(doc_id)
-        return results
-
+        for doc_id, content in self.documents.
 
 
 if __name__ == "__main__":
