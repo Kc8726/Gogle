@@ -7,12 +7,7 @@ class SearchEngine:
 
     def search(self, query):
         results = []
-        for doc_id, content in self.documents.
-
-
-if __name__ == "__main__":
-    search_engine = SearchEngine()
-
+        for doc_id, content in self.do
     # Добавление документов
     search_engine.add_document(1, "Это пример текста для поисковой системы.")
     search_engine.    
